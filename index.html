@@ -9,7 +9,27 @@
     <link rel="stylesheet" type="text/css" href="assets/css/desktop.css">
 </head>
 <body>
+    
+     
+	<section class="painel">
 
+		<div class="painel-box">
+
+			<h1 class="painel-title">BMI Calculator</h1>
+
+			<label for="weight" class="painel-label">Weight (kg):</label><br>
+			<input type="number" id="weight" class="painel-input" placeholder="e.g., 70"><br>
+
+			<label for="height" class="painel-label">Height (m):</label><br>
+			<input type="number" id="height" class="painel-input" step="0.01" placeholder="e.g., 1.75"><br>
+
+			<button id="button-calc" class="painel-button">Calculate BMI</button>
+
+			<div id="result" class="painel-result"></div>
+
+		</div>
+
+	</section>
 
 	<script src="assets/js/script.js"></script>
 </body>
