@@ -6,26 +6,33 @@
 	<title>BMI Calculator</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/tablet.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/desktop.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/desktop.css">
 </head>
 <body>
-    
-     
+
+
 	<section class="painel">
 
 		<div class="painel-box">
 
 			<h1 class="painel-title">BMI Calculator</h1>
 
-			<label for="weight" class="painel-label">Weight (kg):</label><br>
-			<input type="number" id="weight" class="painel-input" placeholder="e.g., 70"><br>
+			<div class="painel-grid">
+				<div class="painel-group">
+					<label for="weight" class="painel-label">Weight (kg):</label><br>
+					<input type="number" id="weight" class="painel-input" placeholder="70"><br>
+				</div>
+				<div class="painel-group">
+					<label for="height" class="painel-label">Height (m):</label><br>
+					<input type="number" id="height" class="painel-input" step="0.01" placeholder="1.75"><br>
+				</div>
+			</div>
 
-			<label for="height" class="painel-label">Height (m):</label><br>
-			<input type="number" id="height" class="painel-input" step="0.01" placeholder="e.g., 1.75"><br>
+			<div class="painel-align">
+				<button id="button-calc" class="painel-button">Calculate BMI</button>
+			</div>
 
-			<button id="button-calc" class="painel-button">Calculate BMI</button>
-
-			<div id="result" class="painel-result"></div>
+			<div id="result" class="painel-result">...</div>
 
 		</div>
 

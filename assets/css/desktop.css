@@ -1,11 +1,18 @@
+
 @media (min-width: 1024px) {
 
-	.painel{  }
-	.painel-box{  }
-	.painel-title{  }
-	.painel-label{  }
-	.painel-input{  }
-	.painel-button{  }
-	.painel-result{  }
+	body{ background-color:#666699; font-family: "Roboto", sans-serif; }
+	.painel{  transform:translate(-50%, -50%); left:50%; top:50%; position: fixed; }
+	.painel-box{ background-color: #d0d0e1; padding: 60px 40px; border-radius: 6px; width: 280px; border: 2px solid rgba(0, 0, 0, .07); box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+	.painel-title{ color: #63639c; font-size: 35px; padding:0px; margin:0px; margin-bottom:20px; text-align:center; }
+	.painel-label{ color: #63639c; font-size: 15px; }
+	.painel-input{ margin-top: 5px; width: 100%; padding: 10px; border-radius:3px; border:none; outline:none; box-sizing:border-box; }
+	.painel-button{ background-color: #00cc66; color: #ccffe6; margin-top:30px; width: 100%; padding: 20px 40px; cursor: pointer; border-radius:4px; border:none; font-size: 16px; }
+	.painel-button:hover{ background-color: #00994d;  }
+	.painel-button:active{ background-color: #00cc66;  }
+	.painel-result{ text-align:center; margin-top:20px; font-size: 30px; color:#46466d; }
+	.painel-align{ display: flex; justify-content:center; }
+	.painel-grid{ display:grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+	.painel-group{  }
 
 }
